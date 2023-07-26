@@ -6,7 +6,7 @@ Este repositório contém os arquivos base para o projeto da disciplina Infraest
 
 ## 📝 Instruções
 
-A tabela abaixo mostra o status das instruções implementadas até o momento:
+A tabela abaixo mostra opcodes previamente implementados:
 
 | # | Instrução | Implementada | Testada | Funcionando |
 |---|-----------|:-----------:|:-------:|:-----------:|
@@ -16,7 +16,7 @@ A tabela abaixo mostra o status das instruções implementadas até o momento:
 | 4 | `ADD`     |     ✅     |   ✅   |     ✅     |
 | 5 | `AND`     |     ✅     |   ✅   |     ✅     |
 
-Seu objetivo é implementar as instruções restantes listadas abaixo:
+A equipe tem como objetivo implementar as instruções restantes listadas abaixo:
 
 | # | Instrução | Implementada | Testada | Funcionando |
 |---|-----------|:-----------:|:-------:|:-----------:|
@@ -48,34 +48,6 @@ Seu objetivo é implementar as instruções restantes listadas abaixo:
 
 - Você tem permissão para modificar a implementação do processador como desejar (por exemplo, incluir fios, alterar tamanhos, modificar sinais, remover ou adicionar módulos, etc.), desde que o resultado final continue funcionando como um pipeline e produza os resultados corretos. Suas decisões de projeto devem ser adequadamente documentadas.
 
-## 📦 Entrega
-
-A data de entrega do projeto será especificada no Classroom, assim como a quantidade de pessoas por grupo.
-
-### Modelo de entrega
-
-A entrega consiste no link do fork do repositório no GitHub, contendo o código-fonte do projeto e o relatório.
-
-- Faça um fork desse repositório e inclua as alterações necessárias (**todos os integrantes do grupo devem contribuir!**).
-  - Além das implementações, fique à vontade para alterar o README.md como achar melhor.
-
-- O relatório deve estar no formato PDF ou como link de um Google Docs. Ele deve conter:
-  - Nome dos integrantes do grupo.
-  - Link para o fork do repositório no GitHub.
-  - Descrição das escolhas de projeto.
-  - Descrição dos testes realizados.
-  - Resultados obtidos.
-  - Dificuldades encontradas.
-  - Conclusão.
-
-O relatório não deve ser extenso, mas deve conter todas as informações necessárias para a avaliação do projeto.
-
-## 📝 Avaliação
-
-A avaliação do projeto será baseada na implementação correta das instruções, nos testes realizados e no funcionamento adequado do processador.
-
-- O projeto será submetido a casos de teste para verificar seu funcionamento, mas o processo de avaliação também levará em conta a qualidade do código e do relatório.
-
 ## 📁 Estrutura do repositório
 O repositório está organizado da seguinte forma:
 - [`design`](/design): Contém o código-fonte do projeto do processador RISC-V.
@@ -96,18 +68,3 @@ O repositório está organizado da seguinte forma:
   - Utilize o simulador CompSim
   - Utilize o [RISC-V Interpreter, by Cornell University](https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/)
 
-## ❓ Dúvidas
-
-Em caso de dúvidas ou dificuldades, entre em contato com os monitores da disciplina:
-- [joaopmarinho](https://github.com/joaopmarinho)
-- [nathaliafab](https://github.com/nathaliafab)
-
-## 🐛 Encontrou um bug ou pensou numa melhoria?
-
-Encorajamos os alunos a procurarem por bugs e sugerirem melhorias para o projeto, visando aperfeiçoá-lo para as próximas edições da disciplina. Se você identificou algum bug ou possui uma ideia para melhorar o projeto, ficaremos felizes em receber sua contribuição!
-
-Existem duas maneiras de nos enviar suas sugestões:
-
-1. **Issue**: Abra uma issue detalhando o problema ou a melhoria proposta. Certifique-se de fornecer informações claras e específicas para facilitar a compreensão do que precisa ser corrigido ou aprimorado.
-
-2. **Pull Request**: Se você é familiarizado com o processo de pull requests, sinta-se à vontade para enviar suas alterações diretamente por meio de um pull request. Certifique-se de descrever claramente as alterações realizadas e o motivo por trás delas.
