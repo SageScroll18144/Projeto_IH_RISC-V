@@ -1,0 +1,599 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lypess/Documentos/Projeto_IH_RISC-V
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1690933024
+!i10b 1
+!s100 J@Bf42a<9Q9R;nJSZl2>B2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:PGz>HA<Ma<j4icj;eh^Y3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/lypess/Documentos/Projeto_IH_RISC-V/design
+Z5 w1690460836
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv
+!i122 65
+Z6 L0 3 11
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1690933024.000000
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 5;jTLO[kW=ac=mFLN`]]Z3
+R2
+IQ[WAWg7`6e1H<e>Zef?AJ0
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv
+!i122 66
+Z11 L0 3 26
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv|
+!i113 1
+R9
+R10
+vALUController
+R0
+R1
+!i10b 1
+!s100 azUPJOK]ezd8h1Fee]S;c2
+R2
+I1ERH3Az5PH?P30P=gAaA?0
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv
+!i122 67
+R11
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv|
+!i113 1
+R9
+R10
+n@a@l@u@controller
+vBranchUnit
+R0
+R1
+!i10b 1
+!s100 6mfj04GQ4<NdfP3N3I?:l2
+R2
+Io1RNfOB[>Qfi6Dg<G`K272
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv
+!i122 68
+R11
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv|
+!i113 1
+R9
+R10
+n@branch@unit
+vController
+R0
+R1
+!i10b 1
+!s100 ?KIF6:YX6JV;Vmm;TP`D41
+R2
+IAC>CcflOMBK`Yg`4mZCLW3
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv
+!i122 69
+Z12 L0 3 35
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv|
+!i113 1
+R9
+R10
+n@controller
+vdatamemory
+R0
+R1
+!i10b 1
+!s100 :U7:`NI4[Mdm`JaQ@69]m0
+R2
+IY]K=d?=ZXn>W6^_zGY8k72
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv
+!i122 70
+L0 3 55
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv|
+!i113 1
+R9
+R10
+vDatapath
+R0
+Z13 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 zZc:EDAQJKRK5?PVO?UoV3
+DXx4 work 16 Datapath_sv_unit 0 22 9i5^K]U54o]<5zU?MF9NN2
+R1
+R3
+r1
+!s85 0
+!i10b 1
+!s100 cWkHWmncDlQL`5?j6eNGC1
+IPfK=WP:5<5Q556VU;c?[X0
+!s105 Datapath_sv_unit
+S1
+R4
+R5
+Z14 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv
+Z15 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv
+!i122 71
+L0 5 312
+R7
+31
+R8
+Z16 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv|
+Z17 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv|
+!i113 1
+R9
+R10
+n@datapath
+XDatapath_sv_unit
+R0
+R13
+R1
+V9i5^K]U54o]<5zU?MF9NN2
+r1
+!s85 0
+!i10b 1
+!s100 VF4Lf?iHQGf6gB@n8TId:0
+I9i5^K]U54o]<5zU?MF9NN2
+!i103 1
+S1
+R4
+R5
+R14
+R15
+!i122 71
+L0 3 0
+R7
+31
+R8
+R16
+R17
+!i113 1
+R9
+R10
+n@datapath_sv_unit
+vflopr
+R0
+Z18 !s110 1690933025
+!i10b 1
+!s100 ElcDNl85mGL9dF?Xd3Za63
+R2
+I5_WB?OgA82B2XFHzmQ6@Q1
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv
+!i122 72
+L0 3 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv|
+!i113 1
+R9
+R10
+vForwardingUnit
+R0
+R18
+!i10b 1
+!s100 CEcEo:_iR9UO6Xd4H`cAC3
+R2
+IF?]_c=?1g_hj9cPeH_LW51
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv
+!i122 73
+L0 3 18
+R7
+r1
+!s85 0
+31
+Z19 !s108 1690933025.000000
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv|
+!i113 1
+R9
+R10
+n@forwarding@unit
+vHazardDetection
+R0
+R18
+!i10b 1
+!s100 =:@:A`@P^b2GYnY^68bZa2
+R2
+Id[>el8EI?9lG3kW`HJ8;z1
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv
+!i122 74
+R6
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv|
+!i113 1
+R9
+R10
+n@hazard@detection
+vimm_Gen
+R0
+R18
+!i10b 1
+!s100 cP:U9UCz::O[GG]YhKW1i2
+R2
+I@UM58:f3IiKPF3z:?K[442
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv
+!i122 75
+L0 3 29
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv|
+!i113 1
+R9
+R10
+nimm_@gen
+vinstructionmemory
+R0
+R18
+!i10b 1
+!s100 6>jnlWCg62QiF^iRiX?C81
+R2
+IRdkMNo;UA4S?_=6ee;L912
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv
+!i122 76
+L0 4 23
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv|
+!i113 1
+R9
+R10
+vMemoria32
+R0
+R18
+!i10b 1
+!s100 1FjL2lU>nY@FN7_?gRN8Y3
+R2
+If?:1AkZmDFL:TQaZ5OAbT2
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv
+!i122 77
+Z20 L0 26 94
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv|
+!i113 1
+R9
+R10
+n@memoria32
+vMemoria32Data
+R0
+R18
+!i10b 1
+!s100 ]NU@J;o]<e]AW?:CD;Fg21
+R2
+Iod70kUjB]hUm?`=>[W]570
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv
+!i122 78
+R20
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv|
+!i113 1
+R9
+R10
+n@memoria32@data
+vmux2
+R0
+R18
+!i10b 1
+!s100 9Hgm:_HaC7CH^93]dTO>S3
+R2
+IC@h_Yj3@]gh]9_Aa;C@K60
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv
+!i122 79
+L0 3 12
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv|
+!i113 1
+R9
+R10
+vmux4
+R0
+R18
+!i10b 1
+!s100 PkRNb1:FWO8e2Pa@XbPjl1
+R2
+I@EEHFDAYBm`4o9lH4lK:>1
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv
+!i122 80
+L0 3 14
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv|
+!i113 1
+R9
+R10
+XPipe_Buf_Reg_PKG
+R0
+R18
+!i10b 1
+!s100 k?>B3>50o;E82z7G4HUZg2
+R2
+IzZc:EDAQJKRK5?PVO?UoV3
+VzZc:EDAQJKRK5?PVO?UoV3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv
+!i122 84
+L0 1 0
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv|
+!i113 1
+R9
+R10
+n@pipe_@buf_@reg_@p@k@g
+vramOnChip32
+R18
+!i10b 1
+!s100 ANVMcJ>zoMilMS0;3XPLA0
+R2
+I9ck:WI2Onkf9Tfm:8kK8d0
+R3
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v
+!i122 81
+Z21 L0 40 78
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v|
+!i113 1
+Z22 o-work work
+R10
+nram@on@chip32
+vramOnChipData
+R18
+!i10b 1
+!s100 _gV6BH4AzTX?eTUV22eHj0
+R2
+I7J@UJMT7i>^H=a?^LfQi]0
+R3
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v
+!i122 82
+R21
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v|
+!i113 1
+R22
+R10
+nram@on@chip@data
+vRegFile
+R0
+R18
+!i10b 1
+!s100 :?B`7Zn]Gb5m`Z5KL_^>03
+R2
+Io<ANN=jM1iFO^^ZMUK;bk2
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv
+!i122 83
+R12
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv|
+!i113 1
+R9
+R10
+n@reg@file
+vriscv
+R0
+R18
+!i10b 1
+!s100 ZG:[k5[V9?jY[REj7dU`m2
+R2
+IV9iI3ed34[RSJGKOYBXY>1
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv
+!i122 85
+L0 3 71
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv|
+!i113 1
+R9
+R10
+vtb_top
+R0
+R18
+!i10b 1
+!s100 <k4lG_MkNX?2l=l78L8cm0
+R2
+I^iZ<EM7cVf9TVKWUQFfFC1
+R3
+S1
+R4
+R5
+8/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv
+F/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv
+!i122 86
+L0 3 62
+R7
+r1
+!s85 0
+31
+R19
+!s107 /home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv|
+!i113 1
+R9
+R10
