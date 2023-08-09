@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/lypess/Documentos/Projeto_IH_RISC-V/main
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1691590399
+Z2 !s110 1691601058
 !i10b 1
 !s100 J@Bf42a<9Q9R;nJSZl2>B2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1691590399.000000
+Z8 !s108 1691601058.000000
 !s107 tb_top.sv|RISC_V.sv|Datapath.sv|instructionmemory.sv|datamemory.sv|mux4.sv|mux2.sv|imm_Gen.sv|HazardDetection.sv|ForwardingUnit.sv|flopr.sv|Controller.sv|BranchUnit.sv|ALUController.sv|alu.sv|RegFile.sv|RegPack.sv|Memoria32Data.sv|Memoria32.sv|ramOnChipData.v|ramOnChip32.v|adder.sv|
 Z9 !s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
@@ -37,23 +37,23 @@ valu
 R1
 R2
 !i10b 1
-!s100 KLUna1GET:4Xh5amk:0@j1
+!s100 :TMgFO9gFOTcBo4zK<55]3
 R3
-I0N3ZO`jfDh]C@T;YfP];f3
+Id??RU6=KPICBXXQGPl8^I2
 R4
 S1
 R0
-Z11 w1691588981
+w1691600257
 8alu.sv
 Falu.sv
 !i122 0
-L0 3 32
+L0 3 34
 R7
 r1
 !s85 0
 31
 R8
-Z12 !s107 tb_top.sv|RISC_V.sv|Datapath.sv|instructionmemory.sv|datamemory.sv|mux4.sv|mux2.sv|imm_Gen.sv|HazardDetection.sv|ForwardingUnit.sv|flopr.sv|Controller.sv|BranchUnit.sv|ALUController.sv|alu.sv|RegFile.sv|RegPack.sv|Memoria32Data.sv|Memoria32.sv|ramOnChipData.v|ramOnChip32.v|adder.sv|
+Z11 !s107 tb_top.sv|RISC_V.sv|Datapath.sv|instructionmemory.sv|datamemory.sv|mux4.sv|mux2.sv|imm_Gen.sv|HazardDetection.sv|ForwardingUnit.sv|flopr.sv|Controller.sv|BranchUnit.sv|ALUController.sv|alu.sv|RegFile.sv|RegPack.sv|Memoria32Data.sv|Memoria32.sv|ramOnChipData.v|ramOnChip32.v|adder.sv|
 R9
 !i113 1
 R10
@@ -61,23 +61,23 @@ vALUController
 R1
 R2
 !i10b 1
-!s100 43HPnYl[fO7S[=mZHm`f`2
+!s100 k=Gkd81BH<4`TDC`=2iS=0
 R3
-I`aj7=J6?Tzh:NCo5mfZ:Q1
+I[cK>8@]RBYQCB?AO5E<Q60
 R4
 S1
 R0
-R11
+w1691600881
 8ALUController.sv
 FALUController.sv
 !i122 0
-L0 3 31
+L0 3 33
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -102,7 +102,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -111,23 +111,23 @@ vController
 R1
 R2
 !i10b 1
-!s100 ?KIF6:YX6JV;Vmm;TP`D41
+!s100 =O6H^d?R:MFM8SX:<?aS03
 R3
-I4ZR<jZVEF:eXnZRNli3;l3
+ICTL8<R]`4l6jnIk[c3EYO1
 R4
 S1
 R0
-R5
+w1691600215
 8Controller.sv
 FController.sv
 !i122 0
-Z13 L0 3 35
+L0 3 36
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -152,13 +152,13 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 vDatapath
 R1
-Z14 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 z^hZIQ;YzTMTYlj:8T@FZ2
+Z12 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 z^hZIQ;YzTMTYlj:8T@FZ2
 DXx4 work 16 Datapath_sv_unit 0 22 dZ0WB6@nX2MiW1[;ndk7M0
 R2
 R4
@@ -170,22 +170,22 @@ IMEhI`hX_29kCTm7d`>JHj3
 !s105 Datapath_sv_unit
 S1
 R0
-Z15 w1691519887
-Z16 8Datapath.sv
-Z17 FDatapath.sv
+Z13 w1691519887
+Z14 8Datapath.sv
+Z15 FDatapath.sv
 !i122 0
 L0 5 312
 R7
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
 n@datapath
 XDatapath_sv_unit
 R1
-R14
+R12
 R2
 VdZ0WB6@nX2MiW1[;ndk7M0
 r1
@@ -196,15 +196,15 @@ IdZ0WB6@nX2MiW1[;ndk7M0
 !i103 1
 S1
 R0
+R13
+R14
 R15
-R16
-R17
 !i122 0
 L0 3 0
 R7
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -229,7 +229,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -253,7 +253,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -278,7 +278,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -303,7 +303,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -328,7 +328,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -346,13 +346,13 @@ R5
 8Memoria32.sv
 FMemoria32.sv
 !i122 0
-Z18 L0 26 94
+Z16 L0 26 94
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -371,13 +371,13 @@ R5
 8Memoria32Data.sv
 FMemoria32Data.sv
 !i122 0
-R18
+R16
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -402,7 +402,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -426,7 +426,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -450,7 +450,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -467,13 +467,13 @@ R5
 8ramOnChip32.v
 FramOnChip32.v
 !i122 0
-Z19 L0 40 78
+Z17 L0 40 78
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -490,13 +490,13 @@ R5
 8ramOnChipData.v
 FramOnChipData.v
 !i122 0
-R19
+R17
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -515,13 +515,13 @@ R5
 8RegFile.sv
 FRegFile.sv
 !i122 0
-R13
+L0 3 35
 R7
 r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -546,7 +546,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10
@@ -570,7 +570,7 @@ r1
 !s85 0
 31
 R8
-R12
+R11
 R9
 !i113 1
 R10

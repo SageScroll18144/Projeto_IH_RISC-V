@@ -1,4 +1,11 @@
-/home/lypess/Documentos/Projeto_IH_RISC-V/main/datamemory.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/datamemory.sv
+/home/lypess/Documentos/Projeto_IH_RISC-V/main/alu.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/datamemory.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/datamemory.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module datamemory
 
@@ -26,6 +33,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	--none--
 
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/ALUController.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
 } {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/RegFile.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/RegFile.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module RegFile
@@ -47,9 +61,8 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Memoria32
 
-} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/Datapath.sv {2 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/Datapath.sv
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/Datapath.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/Datapath.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-** Warning: /home/lypess/Documentos/Projeto_IH_RISC-V/main/Datapath.sv(3): (vlog-13233) Design unit "Datapath_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
 -- Compiling package Datapath_sv_unit
 -- Importing package Pipe_Buf_Reg_PKG
 -- Compiling module Datapath
@@ -78,12 +91,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	HazardDetection
 
-} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/ForwardingUnit.sv
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/ramOnChip32.v {1 {vlog -work work -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/ramOnChip32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ForwardingUnit
+-- Compiling module ramOnChip32
 
 Top level modules:
-	ForwardingUnit
+	ramOnChip32
 
 } {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/flopr.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/flopr.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -92,12 +105,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	flopr
 
-} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/ramOnChip32.v {1 {vlog -work work -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/ramOnChip32.v
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/ForwardingUnit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ramOnChip32
+-- Compiling module ForwardingUnit
 
 Top level modules:
-	ramOnChip32
+	ForwardingUnit
 
 } {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/Controller.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/Controller.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -113,19 +126,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux2
 
-} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/mux4.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/mux4.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux4
-
-Top level modules:
-	mux4
-
 } {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/RISC_V.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/RISC_V.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module riscv
 
 Top level modules:
 	riscv
+
+} {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/mux4.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
 
 } {} {}} /home/lypess/Documentos/Projeto_IH_RISC-V/main/tb_top.sv {1 {vlog -work work -sv -stats=none /home/lypess/Documentos/Projeto_IH_RISC-V/main/tb_top.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
