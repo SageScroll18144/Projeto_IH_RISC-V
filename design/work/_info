@@ -11,7 +11,7 @@ cModel Technology
 d/home/lypess/Documentos/Projeto_IH_RISC-V
 vadder
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1690933024
+Z1 !s110 1691515673
 !i10b 1
 !s100 J@Bf42a<9Q9R;nJSZl2>B2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 d/home/lypess/Documentos/Projeto_IH_RISC-V/design
 Z5 w1690460836
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv
-!i122 65
+!i122 87
 Z6 L0 3 11
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1690933024.000000
+Z8 !s108 1691515673.000000
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/adder.sv|
 !i113 1
@@ -47,7 +47,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/alu.sv
-!i122 66
+!i122 88
 Z11 L0 3 26
 R7
 r1
@@ -72,7 +72,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ALUController.sv
-!i122 67
+!i122 89
 R11
 R7
 r1
@@ -98,7 +98,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/BranchUnit.sv
-!i122 68
+!i122 90
 R11
 R7
 r1
@@ -124,7 +124,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Controller.sv
-!i122 69
+!i122 91
 Z12 L0 3 35
 R7
 r1
@@ -150,7 +150,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/datamemory.sv
-!i122 70
+!i122 92
 L0 3 55
 R7
 r1
@@ -179,7 +179,7 @@ R4
 R5
 Z14 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv
 Z15 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Datapath.sv
-!i122 71
+!i122 93
 L0 5 312
 R7
 31
@@ -206,7 +206,7 @@ R4
 R5
 R14
 R15
-!i122 71
+!i122 93
 L0 3 0
 R7
 31
@@ -219,7 +219,7 @@ R10
 n@datapath_sv_unit
 vflopr
 R0
-Z18 !s110 1690933025
+R1
 !i10b 1
 !s100 ElcDNl85mGL9dF?Xd3Za63
 R2
@@ -230,7 +230,7 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/flopr.sv
-!i122 72
+!i122 94
 L0 3 16
 R7
 r1
@@ -244,7 +244,7 @@ R9
 R10
 vForwardingUnit
 R0
-R18
+R1
 !i10b 1
 !s100 CEcEo:_iR9UO6Xd4H`cAC3
 R2
@@ -255,13 +255,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv
-!i122 73
+!i122 95
 L0 3 18
 R7
 r1
 !s85 0
 31
-Z19 !s108 1690933025.000000
+R8
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ForwardingUnit.sv|
 !i113 1
@@ -270,7 +270,7 @@ R10
 n@forwarding@unit
 vHazardDetection
 R0
-R18
+R1
 !i10b 1
 !s100 =:@:A`@P^b2GYnY^68bZa2
 R2
@@ -281,13 +281,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv
-!i122 74
+!i122 96
 R6
 R7
 r1
 !s85 0
 31
-R19
+R8
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/HazardDetection.sv|
 !i113 1
@@ -296,7 +296,7 @@ R10
 n@hazard@detection
 vimm_Gen
 R0
-R18
+R1
 !i10b 1
 !s100 cP:U9UCz::O[GG]YhKW1i2
 R2
@@ -307,13 +307,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv
-!i122 75
+!i122 97
 L0 3 29
 R7
 r1
 !s85 0
 31
-R19
+R8
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/imm_Gen.sv|
 !i113 1
@@ -322,7 +322,7 @@ R10
 nimm_@gen
 vinstructionmemory
 R0
-R18
+R1
 !i10b 1
 !s100 6>jnlWCg62QiF^iRiX?C81
 R2
@@ -333,13 +333,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv
-!i122 76
+!i122 98
 L0 4 23
 R7
 r1
 !s85 0
 31
-R19
+R8
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/instructionmemory.sv|
 !i113 1
@@ -347,7 +347,7 @@ R9
 R10
 vMemoria32
 R0
-R18
+Z18 !s110 1691515674
 !i10b 1
 !s100 1FjL2lU>nY@FN7_?gRN8Y3
 R2
@@ -358,13 +358,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv
-!i122 77
-Z20 L0 26 94
+!i122 99
+Z19 L0 26 94
 R7
 r1
 !s85 0
 31
-R19
+R8
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32.sv|
 !i113 1
@@ -384,13 +384,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv
-!i122 78
-R20
+!i122 100
+R19
 R7
 r1
 !s85 0
 31
-R19
+Z20 !s108 1691515674.000000
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/Memoria32Data.sv|
 !i113 1
@@ -410,13 +410,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv
-!i122 79
+!i122 101
 L0 3 12
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux2.sv|
 !i113 1
@@ -435,13 +435,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv
-!i122 80
+!i122 102
 L0 3 14
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/mux4.sv|
 !i113 1
@@ -460,13 +460,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv
-!i122 84
+!i122 106
 L0 1 0
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegPack.sv|
 !i113 1
@@ -484,13 +484,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v
-!i122 81
+!i122 103
 Z21 L0 40 78
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChip32.v|
 !i113 1
@@ -508,13 +508,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v
-!i122 82
+!i122 104
 R21
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/ramOnChipData.v|
 !i113 1
@@ -534,13 +534,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv
-!i122 83
+!i122 105
 R12
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RegFile.sv|
 !i113 1
@@ -560,13 +560,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv
-!i122 85
+!i122 107
 L0 3 71
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/design/RISC_V.sv|
 !i113 1
@@ -585,13 +585,13 @@ R4
 R5
 8/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv
 F/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv
-!i122 86
+!i122 108
 L0 3 62
 R7
 r1
 !s85 0
 31
-R19
+R20
 !s107 /home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/lypess/Documentos/Projeto_IH_RISC-V/verif/tb_top.sv|
 !i113 1
