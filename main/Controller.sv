@@ -21,7 +21,7 @@ module Controller (
 
   logic [6:0] R_TYPE, I_TYPE, LW, SW, BR;
 
-  assign I_TYPE = 7'b0010011;  //add,and
+  assign I_TYPE = 7'b0010011;  //addi
   assign R_TYPE = 7'b0110011;  //add,and
   assign LW = 7'b0000011;  //lw
   assign SW = 7'b0100011;  //sw

@@ -27,7 +27,7 @@ module ALUController (
       ((ALUOp == 2'b10) && (Funct3 == 3'b001)) ||  // R\I-<<
       ((ALUOp == 2'b10) && (Funct3 == 3'b010)) || // R\I-<
       ((ALUOp == 2'b10) && (Funct3 == 3'b000) && (Funct7 == 7'b0100000)) // SUB
-      ((ALUOp == 2'b11) && (Funct3 == 3'b000))
+      ((ALUOp == 2'b11) && (Funct3 == 3'b000)) //ADDI
       ;  
 
   assign Operation[3] = (ALUOp == 2'b01) ||  // BEQ
