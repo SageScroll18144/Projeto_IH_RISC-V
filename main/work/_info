@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/lypess/Documentos/Projeto_IH_RISC-V/main
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1691584205
+Z2 !s110 1691590399
 !i10b 1
 !s100 J@Bf42a<9Q9R;nJSZl2>B2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1691584205.000000
+Z8 !s108 1691590399.000000
 !s107 tb_top.sv|RISC_V.sv|Datapath.sv|instructionmemory.sv|datamemory.sv|mux4.sv|mux2.sv|imm_Gen.sv|HazardDetection.sv|ForwardingUnit.sv|flopr.sv|Controller.sv|BranchUnit.sv|ALUController.sv|alu.sv|RegFile.sv|RegPack.sv|Memoria32Data.sv|Memoria32.sv|ramOnChipData.v|ramOnChip32.v|adder.sv|
 Z9 !s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
@@ -37,17 +37,17 @@ valu
 R1
 R2
 !i10b 1
-!s100 =9UFjz4AHS>51VoMJfiY83
+!s100 KLUna1GET:4Xh5amk:0@j1
 R3
-I[lHX^eYma4^P3d8?EY[NB2
+I0N3ZO`jfDh]C@T;YfP];f3
 R4
 S1
 R0
-w1691583739
+Z11 w1691588981
 8alu.sv
 Falu.sv
 !i122 0
-Z11 L0 3 28
+L0 3 32
 R7
 r1
 !s85 0
@@ -61,17 +61,17 @@ vALUController
 R1
 R2
 !i10b 1
-!s100 C8CmJ5[4>G]idfjQgG_P[1
+!s100 43HPnYl[fO7S[=mZHm`f`2
 R3
-I0Vd?PULdFQe0OEE9C=7I>1
+I`aj7=J6?Tzh:NCo5mfZ:Q1
 R4
 S1
 R0
-w1691583758
+R11
 8ALUController.sv
 FALUController.sv
 !i122 0
-R11
+L0 3 31
 R7
 r1
 !s85 0
