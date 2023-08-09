@@ -1,4 +1,2 @@
-lw x4,0(x0)
-lw x5,0(x1)
-xor x5,x5,x4
+addi x5,x5,13
 sw x5,0(x0)
