@@ -1,3 +1,4 @@
-lw x4,1(x3)
-sub x5,x4,x4
+lw x4,0(x0)
+lw x5,0(x1)
+xor x5,x5,x4
 sw x5,0(x0)
