@@ -1,1 +1,3 @@
-add x7,x1,x1
+addi x6,x0,3
+addi x5,x0,2
+add x10,x6,x6

@@ -27,7 +27,7 @@ module Controller (
   assign SW = 7'b0100011;  //sw
   assign BR = 7'b1100011;  //beq
 
-  assign ALUSrc = (Opcode == LW || Opcode == SW );
+  assign ALUSrc = (Opcode == LW || Opcode == SW || Opcode == I_TYPE );
   assign MemtoReg = (Opcode == LW);
   assign RegWrite = (Opcode == R_TYPE || Opcode == LW || Opcode == I_TYPE);
   assign MemRead = (Opcode == LW);
