@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/lypess/Documentos/Projeto_IH_RISC-V/main
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1691721610
+Z2 !s110 1691721872
 !i10b 1
 !s100 J@Bf42a<9Q9R;nJSZl2>B2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1691721610.000000
+Z8 !s108 1691721872.000000
 !s107 tb_top.sv|RISC_V.sv|Datapath.sv|instructionmemory.sv|datamemory.sv|mux4.sv|mux2.sv|imm_Gen.sv|HazardDetection.sv|ForwardingUnit.sv|flopr.sv|Controller.sv|BranchUnit.sv|ALUController.sv|alu.sv|RegFile.sv|RegPack.sv|Memoria32Data.sv|Memoria32.sv|ramOnChipData.v|ramOnChip32.v|adder.sv|
 Z9 !s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
@@ -61,13 +61,13 @@ vALUController
 R1
 R2
 !i10b 1
-!s100 Ve9l[j6^HC@5R36GIhHoe3
+!s100 IjNOUKZMTB3S0CGBYNG]b3
 R3
-IY@ljdgiFLU_:7U<^`a_A<0
+IKz83OOJT:?TgIkKSZzLfb2
 R4
 S1
 R0
-w1691721182
+w1691721760
 8ALUController.sv
 FALUController.sv
 !i122 0
