@@ -2,4 +2,4 @@ addi x6,x0,3
 addi x5,x0,2
 add x10,x6,x6
 sub x11,x10,x5
-slt x12,x11,x10
+slti x12,x11,1
