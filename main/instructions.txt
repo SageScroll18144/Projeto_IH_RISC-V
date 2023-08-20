@@ -1,2 +1,2 @@
-addi x5,x0,257
-sb x8,0(x5)
+addi x2,x1,2
+slli x6,x2,3
