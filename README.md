@@ -30,13 +30,13 @@ A equipe tem como objetivo implementar as instruções restantes listadas abaixo
 | 8  | `LBU`     |      ❌     |    ❌    |      ❌      |
 | 9  | `SB`      |      ✅     |    ✅    |      ✅      |
 | 10 | `SH`      |      ✅     |    ✅    |      ✅      |
-| 11 | `SLTI`    |      ❌     |    ❌    |      ❌      |
+| 11 | `SLTI`    |      ✅     |    ✅    |      ✅      |
 | 12 | `ADDI`    |      ✅     |    ✅    |      ✅      |
 | 13 | `SLLI`    |      ✅     |    ✅    |      ✅      |
 | 14 | `SRLI`    |      ❌     |    ❌    |      ❌      |
 | 15 | `SRAI`    |      ❌     |    ❌    |      ❌      |
 | 16 | `SUB`     |      ✅     |    ✅    |      ✅      |
-| 17 | `SLT`     |      ❌     |    ❌    |      ❌      |
+| 17 | `SLT`     |      ✅     |    ✅    |      ✅      |
 | 18 | `XOR`     |      ✅     |    ✅    |      ✅      |
 | 19 | `OR`      |      ✅     |    ✅    |      ✅      |
 | 20 | `LUI`     |      ✅     |    ✅    |      ✅      |
