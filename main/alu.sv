@@ -17,9 +17,9 @@ module alu#(
             $display("str = %d",Operation);
             case(Operation)
                 4'b0111: begin //SRAI
-                        $display("alo papai");
+                        //$display("alo papai");
                         ALUResult = SrcA >>> (SrcB-1024);
-                        $display("alo papai %d %d %d", ALUResult, SrcA, SrcB);
+                        //$display("alo papai %d %d %d", ALUResult, SrcA, SrcB);
                 end
                 4'b0000:        // AND
                         ALUResult = SrcA & SrcB;
@@ -36,7 +36,7 @@ module alu#(
                 4'b1001: //SLLI
                         ALUResult = SrcA << SrcB;
                 4'b1100: begin//SRLI
-                        $display("esse vai sera %d %d %d", ALUResult, SrcA, SrcB);
+                        //$display("esse vai sera %d %d %d", ALUResult, SrcA, SrcB);
                         ALUResult = SrcA >> SrcB;
                 end
                 4'b1010: //LUI
