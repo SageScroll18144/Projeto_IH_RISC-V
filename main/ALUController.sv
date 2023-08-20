@@ -39,6 +39,9 @@ module ALUController (
       ((ALUOp == 2'b10) && (Funct3 == 3'b001) && (Funct7 == 7'b0000000))  || // SLLI
       ((ALUOp == 2'b10) && (Funct3 == 3'b010) && (Funct7 == 7'b0000000)) ||  //SLTI
       ((ALUOp == 2'b10) && (Funct3 == 3'b101) && (Funct7 == 7'b0000000)) || //SRLI
-      ((ALUOp == 2'b11)); //LUI
+      ((ALUOp == 2'b11)) //LUI
+    //SRAI
+      ;
+       
 
 endmodule

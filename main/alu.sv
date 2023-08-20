@@ -14,31 +14,37 @@ module alu#(
     
         always_comb
         begin
+            $display("str = %d",Operation);
             case(Operation)
-            4'b0000:        // AND
-                    ALUResult = SrcA & SrcB;
-            4'b0001:    //XOR
-                    ALUResult = SrcA ^ SrcB; 
-            4'b0010:        // SUB
-                    ALUResult = SrcA - SrcB;
-            4'b0011:           //OR
-                    ALUResult = SrcA | SrcB;  
-            4'b0100:    // ADD or ADDI
-                    ALUResult = SrcA + SrcB;
-            4'b1000:        // Equal
-                    ALUResult = (SrcA == SrcB) ? 1 : 0;   
-            4'b1001: //SLLI
-		    ALUResult = SrcA << SrcB;
-	    4'b1100: //SRLI
-		    ALUResult = SrcA >> SrcB;
-	    4'b0111: //SRAI
-		    ALUResult = SrcA >>> SrcB;
-            4'b1010: //LUI
-                    ALUResult = SrcB;
-	    4'b1110: // SLT or SLTI
-		    ALUResult = (SrcA < SrcB) ? 1 : 0; 
-            default:
-                    ALUResult = 0;
+                4'b0111: begin //SRAI
+                        $display("alo papai");
+                        ALUResult = SrcA >>> (SrcB-1024);
+                        $display("alo papai %d %d %d", ALUResult, SrcA, SrcB);
+                end
+                4'b0000:        // AND
+                        ALUResult = SrcA & SrcB;
+                4'b0001:    //XOR
+                        ALUResult = SrcA ^ SrcB; 
+                4'b0010:        // SUB
+                        ALUResult = SrcA - SrcB;
+                4'b0011:           //OR
+                        ALUResult = SrcA | SrcB;  
+                4'b0100:    // ADD or ADDI
+                        ALUResult = SrcA + SrcB;
+                4'b1000:        // Equal
+                        ALUResult = (SrcA == SrcB) ? 1 : 0;   
+                4'b1001: //SLLI
+                        ALUResult = SrcA << SrcB;
+                4'b1100: begin//SRLI
+                        $display("esse vai sera %d %d %d", ALUResult, SrcA, SrcB);
+                        ALUResult = SrcA >> SrcB;
+                end
+                4'b1010: //LUI
+                        ALUResult = SrcB;
+                4'b1110: // SLT or SLTI
+                        ALUResult = (SrcA < SrcB) ? 1 : 0; 
+                default:
+                        ALUResult = 0;
             endcase
         end
 endmodule
