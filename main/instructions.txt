@@ -1,4 +1,2 @@
 addi x3,x1,6
 srai x4,x3,1
-addi x5,x1,-6
-srai x6,x5,1

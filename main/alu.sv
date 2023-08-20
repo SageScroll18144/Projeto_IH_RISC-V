@@ -30,9 +30,9 @@ module alu#(
             4'b1001: //SLLI
 		    ALUResult = SrcA << SrcB;
 	    4'b1100: //SRLI
-		    ALUResult = SrcA >> SrcB;
+		    ALUResult = SrcA >>> SrcB;
 	    4'b0101: //SRAI
-		    ALUResult = SrcA >> SrcB | ({32{SrcA[31]}} & (SrcB != 0));
+		    ALUResult = SrcA >> SrcB;
             4'b1010: //LUI
                     ALUResult = SrcB;
 	    4'b1110: // SLT or SLTI
