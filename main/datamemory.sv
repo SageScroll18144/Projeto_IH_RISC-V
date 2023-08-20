@@ -39,9 +39,11 @@ module datamemory #(
         3'b010:  //LW
         rd <= Dataout;
         3'b000: //LB
-        rd <= {Dataout[7] ? 24'hFFFFF : 24'b0, Dataout[7:0]};
+        rd <= {24'b0, Dataout[7:0]};
         3'b001: //LH
-        rd <= {Dataout[15] ? 16'hFFFFF : 16'b0, Dataout[15:0]};   
+        rd <= {16'b0, Dataout[15:0]};  
+        3'b100: //LBU
+        rd <= {1'b0, Dataout[30:0]};   
         default: rd <= Dataout;
       endcase
     end else if (MemWrite) begin
