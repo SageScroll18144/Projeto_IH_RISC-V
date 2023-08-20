@@ -28,7 +28,9 @@ module alu#(
             4'b1000:        // Equal
                     ALUResult = (SrcA == SrcB) ? 1 : 0;   
             4'b1001: //SLLI
-			ALUResult = SrcA << SrcB;
+		    ALUResult = SrcA << SrcB;
+	    4'b1001: //SLRI
+		    ALUResult = SrcA >> SrcB;
             4'b1010: //LUI
                     ALUResult = SrcB;
 	    4'b1110: // SLT
