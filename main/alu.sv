@@ -29,11 +29,13 @@ module alu#(
                     ALUResult = (SrcA == SrcB) ? 1 : 0;   
             4'b1001: //SLLI
 		    ALUResult = SrcA << SrcB;
-	    4'b1100: //SLRI
+	    4'b1100: //SRLI
 		    ALUResult = SrcA >> SrcB;
+	    4'b1100: //SRAI
+		    ALUResult = SrcA >> SrcB | ({32{SrcA[31]}} & (SrcB != 0);
             4'b1010: //LUI
                     ALUResult = SrcB;
-	    4'b1110: // SLT
+	    4'b1110: // SLT or SLTI
 		    ALUResult = (SrcA < SrcB) ? 1 : 0; 
             default:
                     ALUResult = 0;
