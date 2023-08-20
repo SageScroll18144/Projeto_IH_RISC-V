@@ -25,6 +25,9 @@ module imm_Gen (
         inst_code[11:8],
         1'b0
       };
+      
+      7'b0110111: //U-TYPE LUI
+        Imm_out = {inst_code[31:12] , 12'b0};
 
       default: Imm_out = {32'b0};
 
