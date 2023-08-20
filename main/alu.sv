@@ -14,7 +14,7 @@ module alu#(
     
         always_comb
         begin
-            $display("str = %d",Operation);
+            //$display("str = %d",Operation);
             case(Operation)
                 4'b0111: begin //SRAI
                         //$display("alo papai");
