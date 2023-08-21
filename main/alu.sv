@@ -43,6 +43,12 @@ module alu#(
                         ALUResult = SrcB;
                 4'b1110: // SLT or SLTI
                         ALUResult = (SrcA < SrcB) ? 1 : 0; 
+                4'b0110: //BNE
+                        ALUResult = (SrcA != SrcB) ? 1 : 0;
+                4'b0101: //BGE
+                        ALUResult = ((SrcA > SrcB)||(SrcA == SrcB)) ? 1 : 0;
+                4'b1101:  //BLT
+                        ALUResult = (SrcA < SrcB) ? 1 : 0;
                 default:
                         ALUResult = 0;
             endcase
