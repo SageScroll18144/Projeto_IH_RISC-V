@@ -1,3 +1,5 @@
-addi x3,x1,6
-srli x4,x3,1
-srai x5,x3,2
+addi x1, x1, 1
+bne x1, x0, codigo2
+addi x1, x1, 1
+codigo2:
+addi x2, x2, 1
