@@ -1,4 +1,5 @@
 addi x2,x1,1
-bne x2,x1,8
+lw x7,0(x0)
+bne x2,x7,4
 addi x3,x1,3
 addi x2,x1,1
