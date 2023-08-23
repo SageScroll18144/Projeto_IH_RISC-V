@@ -17,7 +17,7 @@ module Controller (
     output logic MemWrite, //Data memory contents designated by the address input are replaced by the value on the Write data input.
     output logic [1:0] ALUOp,  //00: LW/SW; 01:Branch; 10: Rtype
     output logic Branch,  //0: branch is not taken; 1: branch is taken
-    output logic JalrSel 
+    output logic JSel 
 );
 
     logic [6:0] R_TYPE, I_TYPE, U_TYPE, LW, SW, BR, JR, JAL;
