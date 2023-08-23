@@ -39,6 +39,6 @@ module Controller (
   assign ALUOp[0] = (Opcode == BR || Opcode == U_TYPE);
   assign ALUOp[1] = (Opcode == R_TYPE || Opcode == I_TYPE || Opcode == U_TYPE);
   assign Branch = (Opcode == BR);
-    assign JSel = (Opcode == J_TYPE); // se for JALR , JSel = 1
+  assign JSel = (Opcode == J_TYPE); // se for JALR , JSel = 1
 
 endmodule
