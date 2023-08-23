@@ -29,7 +29,7 @@ module Controller (
   assign LW = 7'b0000011;  //lw
   assign SW = 7'b0100011;  //sw
   assign BR = 7'b1100011;  //beq
-  assign JR = 7'b1101111; //jal
+  assign J_TYPE = 7'b1100111; //jalr
 
   assign ALUSrc = (Opcode == LW || Opcode == SW || Opcode == I_TYPE || Opcode == U_TYPE);
   assign MemtoReg = (Opcode == LW);
@@ -39,6 +39,6 @@ module Controller (
   assign ALUOp[0] = (Opcode == BR || Opcode == U_TYPE);
   assign ALUOp[1] = (Opcode == R_TYPE || Opcode == I_TYPE || Opcode == U_TYPE);
   assign Branch = (Opcode == BR);
-  assign JSel = (Opcode == J_TYPE);
+    assign JSel = (Opcode == J_TYPE); // se for JALR , JSel = 1
 
 endmodule
