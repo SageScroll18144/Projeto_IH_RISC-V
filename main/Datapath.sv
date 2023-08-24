@@ -328,11 +328,9 @@ module Datapath #(
   
   mux2 #(32) wrsmux (
       WrmuxSrc,
-      JSel,
-      Pc_Four,
+      D.Pc_Four,
+      D.RWSel,
       WB_Data
   ); 
-
-  //assign WB_Data = WrmuxSrc;
 
 endmodule
