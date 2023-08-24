@@ -39,7 +39,7 @@ module Datapath #(
     output logic [DATA_W-1:0] rd_data  // read data
 );
 
-  logic [PC_W-1:0] PC, PCPlus4, Next_PC;
+  logic [PC_W-1:0] PC, PCPlus4, PCPlus4_Placeholder, Next_PC;
   logic [INS_W-1:0] Instr;
   logic [DATA_W-1:0] Reg1, Reg2;
   logic [DATA_W-1:0] ReadData;
@@ -62,8 +62,9 @@ module Datapath #(
   adder #(9) pcadd (
       PC,
       9'b100,
-      PCPlus4
+      PCPlus4_Placeholder
   );
+  assign PCPlus4 = (flag_halt)? 0'b0 : PCPlus4_Placeholder;
   mux2 #(9) pcmux (
       PCPlus4,
       BrPC[PC_W-1:0],
@@ -142,7 +143,7 @@ module Datapath #(
       B.MemWrite <= 0;
       B.ALUOp <= 0;
       B.Branch <= 0;
-      B.flag_halt <= 0;
+      //B.flag_halt <= 0;
       B.Curr_Pc <= 0;
       B.RD_One <= 0;
       B.RD_Two <= 0;
@@ -173,7 +174,7 @@ module Datapath #(
       B.func7 <= A.Curr_Instr[31:25];
       B.Curr_Instr <= A.Curr_Instr;  //debug tmp
     end
-    $display("%d\n", flag_halt);
+    
   end
 
   //--// The Forwarding Unit
