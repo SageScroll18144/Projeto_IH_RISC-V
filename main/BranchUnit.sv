@@ -22,7 +22,11 @@ module BranchUnit #(
 
   assign PC_Imm = (JalrSel) ? (AluResult&(~(32'b001))) : (PC_Full + Imm); //Se for Jalr, pega o resultado de Alu. Se for Jal ou Branch, (PC_Full + Imm)
   assign PC_Four = PC_Full + 32'b100;
+<<<<<<< HEAD
   assign Branch_Sel = (Branch && AluResult[0]);  // 0:Branch is taken; 1:Branch is not taken
+=======
+    assign Branch_Sel = ((Branch && AluResult[0]) || (JSel));  // 0:Branch is taken; 1:Branch is not taken
+>>>>>>> 183dc15f2dc7d63f4095690a8d15db634282aa29
 
   assign BrPC = (Branch_Sel) ? PC_Imm : 32'b0;  // Branch -> PC+Imm   // Otherwise, BrPC vsim:/tb_top/#INITIAL#35alue is not important
   assign PcSel = Branch_Sel;  // 1:branch is taken; 0:branch is not taken(choose pc+4)
