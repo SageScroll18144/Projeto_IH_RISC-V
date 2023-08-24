@@ -31,8 +31,6 @@ module alu#(
                         ALUResult = SrcA | SrcB;  
                 4'b0100:    // ADD or ADDI
                         ALUResult = SrcA + SrcB;
-                4'b0111: // JALR
-                        ALUResult = SrcA + SrcB;
                 4'b1000:        // Equal
                         ALUResult = (SrcA == SrcB) ? 1 : 0;   
                 4'b1001: //SLLI

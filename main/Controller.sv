@@ -16,19 +16,11 @@ module Controller (
     output logic MemRead,  //Data memory contents designated by the address input are put on the Read data output
     output logic MemWrite, //Data memory contents designated by the address input are replaced by the value on the Write data input.
     output logic [1:0] ALUOp,  //00: LW/SW; 01:Branch; 10: Rtype
-<<<<<<< HEAD
-    output logic Branch,  //0: branch is not taken; 1: branch is taken
-    output logic JSel,
-    output logic JalrSel
-);
 
-    logic [6:0] R_TYPE, I_TYPE, U_TYPE, LW, SW, BR, JR, JAL;
-=======
     output logic Branch  //0: branch is not taken; 1: branch is taken
 );
 
   logic [6:0] R_TYPE, I_TYPE, U_TYPE, LW, SW, BR;
->>>>>>> parent of 2f171c1 (atualizando br op)
 
   assign I_TYPE = 7'b0010011;  //addi
   assign R_TYPE = 7'b0110011;  //add,and
@@ -36,11 +28,6 @@ module Controller (
   assign LW = 7'b0000011;  //lw
   assign SW = 7'b0100011;  //sw
   assign BR = 7'b1100011;  //beq
-<<<<<<< HEAD
-  assign JR = 7'b1100111; //jalr
-  assign JAL = 7'b110111; //jal 
-=======
->>>>>>> parent of 2f171c1 (atualizando br op)
 
   assign ALUSrc = (Opcode == LW || Opcode == SW || Opcode == I_TYPE || Opcode == U_TYPE);
   assign MemtoReg = (Opcode == LW);
@@ -50,10 +37,5 @@ module Controller (
   assign ALUOp[0] = (Opcode == BR || Opcode == U_TYPE);
   assign ALUOp[1] = (Opcode == R_TYPE || Opcode == I_TYPE || Opcode == U_TYPE);
   assign Branch = (Opcode == BR);
-<<<<<<< HEAD
-  assign JSel = (Opcode == JR || Opcode == JAL); 
-  assign JalrSel = (Opcode == JR);
 
-=======
->>>>>>> parent of 2f171c1 (atualizando br op)
 endmodule

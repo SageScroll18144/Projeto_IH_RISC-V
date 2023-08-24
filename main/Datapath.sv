@@ -18,11 +18,7 @@ module Datapath #(
     MemWrite,  // Register file or Immediate MUX // Memroy Writing Enable
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
-<<<<<<< HEAD
-    JSel, //Jump
-    //received_halt,
-=======
->>>>>>> parent of 2f171c1 (atualizando br op)
+
     input  logic [          1:0] ALUOp,
     input  logic [ALU_CC_W -1:0] ALU_CC,         // ALU Control Code ( input of the ALU )
     output logic [          6:0] opcode,
@@ -226,7 +222,6 @@ module Datapath #(
       B.Curr_Pc,
       B.ImmG,
       B.Branch,
-      B.JSel,
       ALUResult,
       BrImm,
       Old_PC_Four,

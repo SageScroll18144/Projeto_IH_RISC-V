@@ -8,7 +8,6 @@ module BranchUnit #(
     input logic Branch,
 
     input logic [31:0] AluResult,
-    input logic flag_halt,
     output logic [31:0] PC_Imm,
     output logic [31:0] PC_Four,
     output logic [31:0] BrPC,
