@@ -18,7 +18,7 @@ module Datapath #(
     MemWrite,  // Register file or Immediate MUX // Memroy Writing Enable
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
-
+    flag_halt,
     input  logic [          1:0] ALUOp,
     input  logic [ALU_CC_W -1:0] ALU_CC,         // ALU Control Code ( input of the ALU )
     output logic [          6:0] opcode,
@@ -80,7 +80,7 @@ module Datapath #(
   instructionmemory instr_mem (
       clk,
       PC,
-      Instr//received_halt
+      Instr
   );
 
   // IF_ID_Reg A;
@@ -142,6 +142,7 @@ module Datapath #(
       B.MemWrite <= 0;
       B.ALUOp <= 0;
       B.Branch <= 0;
+      B.flag_halt <= 0;
       B.Curr_Pc <= 0;
       B.RD_One <= 0;
       B.RD_Two <= 0;
@@ -159,6 +160,7 @@ module Datapath #(
       B.MemRead <= MemRead;
       B.MemWrite <= MemWrite;
       B.ALUOp <= ALUOp;
+      B.flag_halt <= flag_halt;
       B.Branch <= Branch;
       B.Curr_Pc <= A.Curr_Pc;
       B.RD_One <= Reg1;
@@ -171,6 +173,7 @@ module Datapath #(
       B.func7 <= A.Curr_Instr[31:25];
       B.Curr_Instr <= A.Curr_Instr;  //debug tmp
     end
+    $display("%d\n", flag_halt);
   end
 
   //--// The Forwarding Unit
@@ -222,11 +225,13 @@ module Datapath #(
       B.Curr_Pc,
       B.ImmG,
       B.Branch,
+      B.flag_halt,
       ALUResult,
       BrImm,
       Old_PC_Four,
       BrPC,
       PcSel
+    
   );
 
   // EX_MEM_Reg C;

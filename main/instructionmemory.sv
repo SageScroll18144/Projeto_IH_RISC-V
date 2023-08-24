@@ -8,8 +8,6 @@ module instructionmemory #(
     input logic clk,  // Clock
     input logic [INS_ADDRESS -1:0] ra,  // Read address of the instruction memory, comes from PC
     output logic [INS_W -1:0] rd  // Read Data
-    //output logic received_halt // Read Data
-    
 );
 
   logic [INS_W-1 : 0] get_dataOut;  // Data output from the memory
@@ -24,6 +22,5 @@ module instructionmemory #(
   );
 
   assign rd = get_dataOut;
-  //assign received_halt = (!get_dataOut) ? 1 : 0;
   
 endmodule

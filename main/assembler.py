@@ -213,6 +213,10 @@ def translate(instruction):
 def translate_instruction(instruction):
 	instr = instruction.split(" ")[0]
 
+	instrHalt = instruction.rstrip("\n")
+	if(instrHalt == "halt"):
+		return "00000000000000000000000000000000"
+
 	rd = instruction.split(" ")[1].split(",")[0]
 	rd = bin(int(rd[1:]))[2:].zfill(5)
 
