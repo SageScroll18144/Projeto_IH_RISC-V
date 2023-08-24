@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+timescale 1ns / 1ps
 
 import Pipe_Buf_Reg_PKG::*;
 
@@ -314,7 +314,14 @@ module Datapath #(
       D.MemtoReg,
       WrmuxSrc
   );
+  
+  mux2 #(32) wrsmux (
+      WrmuxSrc,
+      JSel,
+      Pc_Four,
+      WB_Data
+  ); 
 
-  assign WB_Data = WrmuxSrc;
+  //assign WB_Data = WrmuxSrc;
 
 endmodule
