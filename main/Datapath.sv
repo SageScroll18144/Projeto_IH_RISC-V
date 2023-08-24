@@ -19,6 +19,7 @@ module Datapath #(
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
     JSel, //Jump
+    //received_halt,
     input  logic [          1:0] ALUOp,
     input  logic [ALU_CC_W -1:0] ALU_CC,         // ALU Control Code ( input of the ALU )
     output logic [          6:0] opcode,
@@ -80,7 +81,7 @@ module Datapath #(
   instructionmemory instr_mem (
       clk,
       PC,
-      Instr
+      Instr//received_halt
   );
 
   // IF_ID_Reg A;
