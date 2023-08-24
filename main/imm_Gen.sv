@@ -27,8 +27,12 @@ module imm_Gen (
       };
 
      7'b1100111:  /*Jalr-type*/
+               if(inst_code[14:12] == 3'b000 || inst_code[14:12] == 3'b010) begin
           Imm_out = {inst_code[31] ? 20'hFFFFF : 20'b0, inst_code[31:20]};
 
+        end else if(inst_code[14:12] == 3'b001 || inst_code[14:12] == 3'b101)begin  
+              Imm_out = {27'b0 ,inst_code[24:20]};
+            end
      7'b1101111: /*J-type*/
      Imm_out = {
         inst_code[31] ? 11'h7FF : 11'b0,

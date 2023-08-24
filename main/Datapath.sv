@@ -1,4 +1,4 @@
-timescale 1ns / 1ps
+`timescale 1ns / 1ps
 
 import Pipe_Buf_Reg_PKG::*;
 
@@ -19,6 +19,8 @@ module Datapath #(
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
     JSel, //Jump
+    JalrSel,
+    RWSel,
     input  logic [          1:0] ALUOp,
     input  logic [ALU_CC_W -1:0] ALU_CC,         // ALU Control Code ( input of the ALU )
     output logic [          6:0] opcode,
@@ -116,13 +118,13 @@ module Datapath #(
       D.rd,
       A.Curr_Instr[19:15],
       A.Curr_Instr[24:20],
-      WrmuxSrc,
+      WB_Data,
       Reg1,
       Reg2
   );
 
   assign reg_num = D.rd;
-  assign reg_data = WrmuxSrc;
+  assign reg_data = WB_Data;
   assign reg_write_sig = D.RegWrite;
 
   // //sign extend
@@ -137,6 +139,7 @@ module Datapath #(
         begin
       B.ALUSrc <= 0;
       B.MemtoReg <= 0;
+      B.RWSel <= 0;
       B.RegWrite <= 0;
       B.MemRead <= 0;
       B.MemWrite <= 0;
@@ -144,6 +147,7 @@ module Datapath #(
       B.Branch <= 0;
       B.Curr_Pc <= 0;
       B.RD_One <= 0;
+      B.JalrSel <= 0;
       B.RD_Two <= 0;
       B.RS_One <= 0;
       B.RS_Two <= 0;
@@ -156,6 +160,8 @@ module Datapath #(
     end else begin
       B.ALUSrc <= ALUsrc;
       B.MemtoReg <= MemtoReg;
+      B.RWSel <= RWSel;
+      B.JalrSel <= JalrSel;
       B.RegWrite <= RegWrite;
       B.MemRead <= MemRead;
       B.MemWrite <= MemWrite;
@@ -194,7 +200,7 @@ module Datapath #(
 
   mux4 #(32) FAmux (
       B.RD_One,
-      WrmuxSrc,
+      WB_Data,
       C.Alu_Result,
       B.RD_One,
       FAmuxSel,
@@ -202,7 +208,7 @@ module Datapath #(
   );
   mux4 #(32) FBmux (
       B.RD_Two,
-      WrmuxSrc,
+      WB_Data,
       C.Alu_Result,
       B.RD_Two,
       FBmuxSel,
@@ -225,6 +231,7 @@ module Datapath #(
       B.ImmG,
       B.Branch,
       B.JSel,
+      B.JalrSel,
       ALUResult,
       BrImm,
       Old_PC_Four,
@@ -238,6 +245,7 @@ module Datapath #(
         begin
       C.RegWrite <= 0;
       C.MemtoReg <= 0;
+      C.RWSel <= 0;
       C.MemRead <= 0;
       C.MemWrite <= 0;
       C.Pc_Imm <= 0;
@@ -251,6 +259,7 @@ module Datapath #(
     end else begin
       C.RegWrite <= B.RegWrite;
       C.MemtoReg <= B.MemtoReg;
+      C.RWSel <= B.RWSel;
       C.MemRead <= B.MemRead;
       C.MemWrite <= B.MemWrite;
       C.Pc_Imm <= BrImm;
@@ -288,6 +297,7 @@ module Datapath #(
         begin
       D.RegWrite <= 0;
       D.MemtoReg <= 0;
+      D.RWSel <= 0;
       D.Pc_Imm <= 0;
       D.Pc_Four <= 0;
       D.Imm_Out <= 0;
@@ -297,6 +307,7 @@ module Datapath #(
     end else begin
       D.RegWrite <= C.RegWrite;
       D.MemtoReg <= C.MemtoReg;
+      D.RWSel <= C.RWSel;
       D.Pc_Imm <= C.Pc_Imm;
       D.Pc_Four <= C.Pc_Four;
       D.Imm_Out <= C.Imm_Out;
