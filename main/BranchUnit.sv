@@ -6,8 +6,11 @@ module BranchUnit #(
     input logic [PC_W-1:0] Cur_PC,
     input logic [31:0] Imm,
     input logic Branch,
+<<<<<<< HEAD
     input logic JSel,
     input logic JalrSel,
+=======
+>>>>>>> parent of 2f171c1 (atualizando br op)
     input logic [31:0] AluResult,
     input logic flag_halt,
     output logic [31:0] PC_Imm,
