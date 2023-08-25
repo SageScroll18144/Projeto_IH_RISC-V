@@ -8,7 +8,7 @@ module imm_Gen (
 
   always_comb
     case (inst_code[6:0])
-      7'b0000011:  /*I-type load part*/1100111
+      7'b0000011:  /*I-type load part*/
           Imm_out = {inst_code[31] ? 20'hFFFFF : 20'b0, inst_code[31:20]};
         7'b0010011: /*I-type ADDI*/    
             Imm_out = {inst_code[31] ? 20'hFFFFF : 20'b0, inst_code[31:20]};
