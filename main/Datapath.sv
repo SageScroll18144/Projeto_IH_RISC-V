@@ -332,6 +332,8 @@ module Datapath #(
       D.MemtoReg,
       WrmuxSrc_Placeholder
   );
+
+  assign D.Pc_Four = D.Pc_Four - 8;
     
   mux2 #(32) wrsmux (
       WrmuxSrc_Placeholder,
