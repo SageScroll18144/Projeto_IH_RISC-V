@@ -51,7 +51,7 @@ module alu#(
                 4'b1101:  //BLT
                         ALUResult = (SrcA < SrcB) ? 1 : 0;
                 4'b1111:  //J
-                        ALUResult = Pc4;
+                        ALUResult = SrcA + SrcB;
                 default:
                         ALUResult = 0;
             endcase

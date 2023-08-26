@@ -55,6 +55,7 @@ module Datapath #(
   logic [DATA_W-1:0] FAmux_Result;
   logic [DATA_W-1:0] FBmux_Result;
   logic Reg_Stall;  //1: PC fetch same, Register not update
+  logic [31:0] bypass;
 
   if_id_reg A;
   id_ex_reg B;
@@ -333,11 +334,11 @@ module Datapath #(
       WrmuxSrc_Placeholder
   );
 
-  assign D.Pc_Four = D.Pc_Four - 8;
-    
+  assign bypass = (D.Pc_Four - 32'b1000);
+
   mux2 #(32) wrsmux (
       WrmuxSrc_Placeholder,
-      D.Pc_Four,
+      bypass,
       D.JmpSel,
       WrmuxSrc
   );
