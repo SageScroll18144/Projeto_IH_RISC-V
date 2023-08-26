@@ -334,7 +334,7 @@ module Datapath #(
       WrmuxSrc_Placeholder
   );
 
-  assign bypass = (D.JmpSel) ? (D.Pc_Four - 32'b1000) : D.Pc_Four;
+ assign bypass = (B.Branch) ? D.Pc_Four : (D.Pc_Four - 32'b1000);
 
   mux2 #(32) wrsmux (
       WrmuxSrc_Placeholder,
