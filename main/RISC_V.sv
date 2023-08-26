@@ -44,6 +44,7 @@ module riscv #(
       ALUop_Reg,
       Funct7,
       Funct3,
+      JmpSel,
       Operation
   );
 
