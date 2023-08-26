@@ -19,10 +19,13 @@ module BranchUnit #(
 
   logic Branch_Sel;
   logic [31:0] PC_Full;
+  logic [31:0] aux_PC;
 
   assign PC_Full = {23'b0, Cur_PC};
 
   assign PC_Imm = (JalrSel) ? AluResult : (PC_Full + Imm - 32'b1000); //Se for Jalr, pega o resultado de Alu. Se for Jal ou Branch, (PC_Full + Imm)
+  assign aux_PC = PC_Imm;
+  assign PC_Imm = ((JmpSel) && (!JalrSel)) ?  (PC_Full + Imm) : aux_PC;
   assign PC_Four = (flag_halt) ? {0'b0} : PC_Full + 32'b100; //(flag_halt) ? 32'b100000000 : PC_Full + 32'b100
   assign Branch_Sel = (Branch && AluResult[0]) || (JmpSel);  // 0:Branch is taken; 1:Branch is not taken
 
