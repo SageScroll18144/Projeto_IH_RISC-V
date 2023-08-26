@@ -50,6 +50,11 @@ A equipe tem como objetivo implementar as instruções restantes listadas abaixo
 
 ## 📁 Estrutura do repositório
 O repositório está organizado da seguinte forma:
+
+### ARQUIVOS DA EQUIPE
+- [`main`](/main): Contém de fato o projeto desenvolvido pela equipe. Foi adotado a utilização dessa pasta para facilitar a compilação dos testes e a implementação do projeto.
+
+### ARQUIVOS ORIGINAIS
 - [`design`](/design): Contém o código-fonte do projeto do processador RISC-V.
 - [`doc`](/doc): Contém mais explicações sobre a implementação.
 - [`sim`](/sim): Contém os arquivos de simulação e os resultados, para uso nos testes.
